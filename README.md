@@ -1,8 +1,8 @@
-#TinyPuters
+# TinyPuters
 
 A utility to manage raspberry pi and small IoT boards.
 
-##Build
+## Build
 
 Requires go `> 1.15`
 
@@ -10,13 +10,13 @@ Requires go `> 1.15`
 go build .
 ```
 
-##Run
+## Run
 
 ```bash
 tinyputers
 ```
 
-##Features
+## Features
 
 Currently discovers other devices on your network running tinyputers and stores them in a boltDB file, most of which is configurable.
 
